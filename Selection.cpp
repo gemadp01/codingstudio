@@ -77,5 +77,16 @@ switch(angka) {
 
 //	ternary, kondisi ? benar : salah
 
+//	Pre Increment (++variabel) dimana variabel di tambah dulu kemudian di cetak 
+//	int i = 0;
+//	printf("%d\n", ++i);
+//	printf("%d\n", i);
 	
+//	Post Increment (variabel++) dimana variable dicetak terus di tambah
+//	int j = 0;
+//	printf("%d\n", j++);
+//	printf("%d", j);
+
+//	Pre Decrement (--variabel)
+//	Post Decrement (variabel--)	
 }

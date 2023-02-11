@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main() {
-	int bilanganPertama, bilanganKedua;
+//	int bilanganPertama, bilanganKedua;
 	
 //	Arithmetic Operators
 
@@ -50,10 +50,7 @@ int main() {
 //scanf("%d %d", &bilanganPertama, &bilanganKedua);
 //printf("%d\n", bilanganPertama%bilanganKedua);
 
-//	Pre Increment (++variabel)
-//	Post Increment (variabel++)
-//	Pre Decrement (--variabel)
-//	Post Decrement (variabel--)
+
 	
 	return 0;
 }
