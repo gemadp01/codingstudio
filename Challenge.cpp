@@ -1,7 +1,10 @@
 #include<stdio.h>
 
 int main() {
+	
 	int bilanganPertama, bilanganKedua, bilanganKetiga;
+
+//	int bilanganPertama, bilanganKedua;
 	
 //	1. Arithmetic Operators
 
@@ -50,7 +53,6 @@ int main() {
 //scanf("%d %d", &bilanganPertama, &bilanganKedua);
 //printf("%d\n", bilanganPertama%bilanganKedua);
 
-
 //	2. Selection
 	scanf("%d", &bilanganPertama);
 	scanf("%d %d", &bilanganKedua, &bilanganKetiga);
@@ -60,6 +62,7 @@ int main() {
 	} else {
 		printf("%d bukan diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
 	}
+
 	
 	return 0;
 }
