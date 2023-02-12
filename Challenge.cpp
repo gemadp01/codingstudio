@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 int main() {
-	int bilanganPertama, bilanganKedua;
+	int bilanganPertama, bilanganKedua, bilanganKetiga;
 	
-//	Arithmetic Operators
+//	1. Arithmetic Operators
 
 //	Tambah
 //	scanf("%d", &bilanganPertama);
@@ -34,7 +34,7 @@ int main() {
 //	scanf("%d", &bilanganKedua);
 //	printf("%d\n", bilanganPertama%bilanganKedua);
 
-//	Arithmetic Operators
+//1.1	Arithmetic Operators
 //scanf("%d %d", &bilanganPertama, &bilanganKedua);
 //printf("%d\n", bilanganPertama+bilanganKedua);
 //
@@ -50,10 +50,16 @@ int main() {
 //scanf("%d %d", &bilanganPertama, &bilanganKedua);
 //printf("%d\n", bilanganPertama%bilanganKedua);
 
-//	Pre Increment (++variabel)
-//	Post Increment (variabel++)
-//	Pre Decrement (--variabel)
-//	Post Decrement (variabel--)
+
+//	2. Selection
+	scanf("%d", &bilanganPertama);
+	scanf("%d %d", &bilanganKedua, &bilanganKetiga);
+	
+	if(bilanganPertama >= bilanganKedua && bilanganPertama <= bilanganKetiga) {
+		printf("%d diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+	} else {
+		printf("%d bukan diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+	}
 	
 	return 0;
 }

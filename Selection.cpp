@@ -50,6 +50,12 @@ int main() {
 //	}
 //	CTRL + /
 
+//	kondisi ? benar : salah
+//	kondisi ? benar : kondisi ? benar : salah
+printf("%s", (angka < 2 ? "lebih kecil dari 2" :
+				angka > 2 ? "lebih besar dari 2" : "2"));
+
+
 /*
 	PERBEDAAN IF DENGAN SWITCH CASE
 	KALAU DI IF KITA BISA MENGECEK LEBIH BESAR SAMA DENGAN >= / MODULUS / OPERATORS

@@ -15,5 +15,10 @@ int main() {
 	printf("Shift Right : %d\n", 6>>2);
 	printf("Shift Left : %d\n", 6<<2);
 	
+	//	Pre Increment (++variabel)
+//	Post Increment (variabel++)
+//	Pre Decrement (--variabel)
+//	Post Decrement (variabel--)
+	
 	return 0;
 }
