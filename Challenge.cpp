@@ -57,11 +57,22 @@ int main() {
 	scanf("%d", &bilanganPertama);
 	scanf("%d %d", &bilanganKedua, &bilanganKetiga);
 	
-	if(bilanganPertama >= bilanganKedua && bilanganPertama <= bilanganKetiga) {
-		printf("%d diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
-	} else {
-		printf("%d bukan diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
-	}
+//	if(bilanganPertama >= bilanganKedua && bilanganPertama <= bilanganKetiga) {
+//		printf("%d diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+//	} else {
+//		printf("%d bukan diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+//	}
+	
+//	Penulisan Syntax #1 (tapi hanya bisa 1 baris)
+//	if(bilanganPertama >= bilanganKedua && bilanganPertama <= bilanganKetiga) {
+//		printf("%d diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+//	} else printf("%d bukan diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+	
+//	Penulisan Syntax #2 (tapi hanya bisa 1 baris setelah else)
+//	if(bilanganPertama >= bilanganKedua && bilanganPertama <= bilanganKetiga) {
+//		printf("%d diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);
+//	} else { 
+//		printf("%d bukan diantara %d dan %d", bilanganPertama, bilanganKedua, bilanganKetiga);	
 
 	
 	return 0;

@@ -18,6 +18,8 @@ int main() {
 //	for(int i = 0; i < 10; i++) {
 //		
 //		penulisan bisa kaya gini tapi hanya sebaris
+//		
+//		break (berhenti), continue (skip dan melanjutkan)
 //		if(i == 5) continue/break;
 //		
 //		
@@ -42,20 +44,57 @@ int main() {
 //	} while(j <= 10);
 
 //	nested, didalam looping ada looping lagi
+//	for(int i = 0; i < 10; i++) {
+//		for(int j = 0; j < 10; j++) {
+//			if(i == 0 || j == 0 || i == 9 || j == 9) {
+//				printf("*");
+//			} else {
+//				printf(" ");
+//			}
+//		}
+//		printf("\n");
+//	}
+
+//	for(int i = 10; i > 0; i--) {
+//		for(int j = 10; j > 0; j--) {
+//			if(j == i || j < i) {
+//				printf("*");
+//			}
+//		}
+//		printf("%d\n", i);
+//	}
+//	int baris = 5;
+//	int spasi;
+//	for(int i = 1; i <= baris; i++) {
+//		for(spasi = i; spasi <= baris; spasi++) {
+//			printf(" ");
+//			for(int j = 1; j <= i; j++) {
+//				printf("* ");
+//			}
+//		}
+//		printf("\n");
+//	}
+
+//	for(int i = 0; i < 10; i++) {
+//		if(i == 5) {
+//			continue;
+//		printf("%i\n", i);
+//		}
+//		
+//	}
 int size;
 scanf("%d\n", &size);
-for(int i = 1; i <= size; i++) {
-	for(int j = 1; j <= size; j++) {
-		if(j == 1 || j == size || i == 1 || i == size) {
+for(int i = 0; i < size; i++) {
+	for(int j = 0; j < size; j++) {
+		if(j == 0 || j == size-1 || i == 0 || i == size-1) {
 			printf("*");
 		} else {
 			printf(" ");
 		}
-		
-		
 	}
 	printf("\n");
 }
+
 
 return 0;	
 }
